@@ -66,13 +66,13 @@ const SliderItem = (props) => (
                   <p className="sub-heading">{props.item.description}</p>
                   <div className="flat-bt-slider flex style2">
                     <Link
-                      to="/explore-01"
+                      to=""
                       className="sc-button header-slider style style-1 rocket fl-button pri-1"
                     >
                       <span>Invertir</span>
                     </Link>
                     <Link
-                      to="/create-item"
+                      to=""
                       className="sc-button header-slider style style-1 note fl-button pri-1"
                     >
                       <span>¿Quieres tokenizar tu proyecto?</span>

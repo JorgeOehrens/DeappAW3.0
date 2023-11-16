@@ -6,55 +6,55 @@ const Footer = () => {
   const accountList = [
     {
       title: "Mercado",
-      link: "/authors-01",
+      link: "#",
     },
     {
       title: "Devs",
-      link: "/wallet-connect",
+      link: "#",
     },
     {
       title: "Author Profile",
-      link: "/edit-profile",
+      link: "#",
     },
     {
       title: "Tutoriales",
-      link: "/create-item",
+      link: "#",
     },
   ];
   const resourcesList = [
     {
       title: "Comunidad",
-      link: "/help-center",
+      link: "#",
     },
     {
       title: "Tutoriales",
-      link: "/live-auctions",
+      link: "#",
     },
     {
       title: "Wallets",
-      link: "/item-details-01",
+      link: "#",
     },
     {
       title: "Preguntas",
-      link: "/activity-01",
+      link: "#",
     },
   ];
   const companyList = [
     {
       title: "Pasos a Seguir",
-      link: "/explore-01",
+      link: "#",
     },
     {
       title: "Contacto",
-      link: "/contact-01",
+      link: "#",
     },
     {
       title: "Preguntas",
-      link: "/blog",
+      link: "#",
     },
     {
       title: "Partners",
-      link: "/faq",
+      link: "#",
     },
   ];
   const socialList = [

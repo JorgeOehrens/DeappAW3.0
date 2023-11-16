@@ -76,70 +76,28 @@ const Header = () => {
                         } ${activeIndex === index ? "active" : ""} `}
                       >
                         <Link to={data.links}>{data.name}</Link>
-                        {data.namesub && (
-                          <ul className="sub-menu">
-                            {data.namesub.map((submenu) => (
-                              <li
-                                key={submenu.id}
-                                className={
-                                  pathname === submenu.links
-                                    ? "menu-item current-item"
-                                    : "menu-item"
-                                }
-                              >
-                                <Link to={submenu.links}>{submenu.sub}</Link>
-                              </li>
-                            ))}
-                          </ul>
-                        )}
+                        {data.namesub && <ul className="sub-menu"></ul>}
                       </li>
                     ))}
                   </ul>
                 </nav>
                 <div className="flat-search-btn flex">
-                  <div className="header-search flat-show-search" id="s1">
-                    <Link
-                      to="#"
-                      className="show-search header-search-trigger"
-                      onClick={searchBtn}
-                    >
-                      <i className="far fa-search"></i>
-                    </Link>
-                    <div className="top-search" ref={btnSearch}>
-                      <form
-                        action="#"
-                        method="get"
-                        role="search"
-                        className="search-form"
-                      >
-                        <input
-                          type="search"
-                          id="s"
-                          className="search-field"
-                          placeholder="Search..."
-                          name="s"
-                          title="Search for"
-                          required=""
-                        />
-                        <button
-                          className="search search-submit"
-                          type="submit"
-                          title="Search"
-                        >
-                          <i className="icon-fl-search-filled"></i>
-                        </button>
-                      </form>
-                    </div>
-                  </div>
                   <div className="sc-btn-top mg-r-12" id="site-header">
                     <Link
-                      to="/wallet-connect"
+                      to="#"
                       className="sc-button header-slider style style-1 wallet fl-button pri-1"
                     >
                       <span>Conectar billetera</span>
                     </Link>
                   </div>
-
+                  <div className="sc-btn-top mg-r-12" id="site-header">
+                    <Link
+                      to="#"
+                      className="sc-button header-slider style style-1  fl-button pri-1"
+                    >
+                      <span>Dashboard</span>
+                    </Link>
+                  </div> 
                   <div className="admin_active" id="header_admin">
                     <div className="header_avatar">
                       <div className="price">
